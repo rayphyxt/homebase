@@ -1,82 +1,95 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Homebase : Start from scratch">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Homebase</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/rayphyxt/homebase">View on GitHub</a>
-
-          <h1 id="project_title">Homebase</h1>
-          <h2 id="project_tagline">Start from scratch</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/rayphyxt/homebase/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/rayphyxt/homebase/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a name="u-said-wote" class="anchor" href="#u-said-wote"><span class="octicon octicon-link"></span></a>u said wote</h1>
-
-<h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Homebase maintained by <a href="https://github.com/rayphyxt">rayphyxt</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>myHomePage</title>
+		<!--[if IE]>
+		<script type="text/javascript" src="./lib/html5.js"></script>
+		<style>
+			article, aside, dialog, figure, footer, header, hgroup, menu, nav, section { display: block; }
+		</style>
+		<![endif]-->
+		<link type="text/css" rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css"></link>
+		<link type="text/css" rel="stylesheet" href="./lib/jscrollpane/jquery.jscrollpane.css"></link>
+		<link type="text/css" rel="stylesheet" href="./lib/album/css/album.css"></link>
+		<link type="text/css" rel="stylesheet" href="./lib/jquery-ui-1.10.4.custom/css/ui-lightness/jquery-ui-1.10.4.custom.min.css"></link>
+		<link type="text/css" rel="stylesheet" href="./stylesheets/reset.css"></link>
+		<link type="text/css" rel="stylesheet" href="./stylesheets/common.css"></link>
+		<link type="text/css" rel="stylesheet" href="./stylesheets/zxx.lib.css"></link>
+		<link rel="stylesheet" href="./stylesheets/myStyle.css"></link>
+	</head>
+	<body class="">
+		<ul class="indexMenu">
+			<li data-type="normal"><span class="glyphicon glyphicon-home" ></span><em class=" rel">母体的主页</em></li>
+			<li data-type="left" data-target="myInformation"><span class="glyphicon glyphicon-user " ></span><em class=" rel">母体的信息</em></li>
+			<li data-type="top" data-target="myPhotos" ><span class="glyphicon glyphicon-picture "></span><em class=" rel">母体的相册</em></li>
+			<li data-type="right" data-target="myArticle"><span class="glyphicon glyphicon-pencil "></span><em class=" rel">母体的随笔</em></li>
+			<li data-type="bottom" data-target="myRecode"><span class="glyphicon glyphicon-film "></span><em class=" rel">母体的临摹网站</em></li>
+			<li data-type="left" data-target="myWork"><span class="glyphicon glyphicon-folder-open "></span><em class=" rel">母体的工作经历</em></li>
+			<li data-type="right" data-target="myGame"><span class="glyphicon glyphicon-send "></span><em class=" rel">母体的游戏</em></li>
+		</ul>
+		<section class="main_area abs ovh">
+				<header class="fix">
+					<div class="col-lg-8 title">From Zero <aside>Start from scratch</aside></div>
+					<div class="col-lg-4"> 
+						<a class="needtooltip glyphicon glyphicon-folder-close r" data-toggle="tooltip" data-placement="bottom" href="https://github.com/yansm/fromzero/zipball/gh-pages" title="Download this project as a .zip file"></a>  
+						<a class="needtooltip glyphicon glyphicon-briefcase pt2 r" data-toggle="tooltip" data-placement="bottom" href="https://github.com/yansm/fromzero/tarball/gh-pages"  title="Download this project as a tar.gz file"></a>  
+						<a class="needtooltip glyphicon glyphicon-eye-open pt2 r" data-toggle="tooltip" data-placement="bottom" href="https://github.com/yansm/fromzero/tree/gh-pages"  title="View on github"></a>  
+					</div>
+				</header>
+				<ul class="module_info rel f24 ">
+					<li class="current">
+						<p><span class="color1 f48">欢</span>迎来到我的个人主页，希望你会喜欢这里。</p>
+						<p>我是一名<span class="color1 f48">前端</span>工程师。</p>
+						<p>偏执的喜欢<span class="color1 f48">平面</span>化设计。</p>
+					</li>
+					<li>
+						<p>我的名字叫<span class="color2 f48">闫三木</span>。</p>
+						<p>喜欢<span class="color2 f48">C</span>ss,喜欢<span class="color2 f48">J</span>s。</p>
+						<p>更喜欢<span class="color2 f48">偷懒~</span>。</p>
+						<p>我不会P<span class="color2 f48">H</span>p,不会Fle<span class="color2 f48">x</span>，可是我是一个好前端。</p>
+					</li>
+					<li>
+						<p>我有一条叫<span class="color3 f48">墩</span>儿<span class="color3 f48">墩</span>儿的狗，</p>
+						<p>比我<span class="color3 f48">上相</span>的多哦。</p>
+						<img class="img_index abs" src="./images/photos/img2.jpg" >
+					</li>
+					<li>
+						<p>闲来<span class="color4 f48">无事</span>，喜欢写一些东西，可惜最近一点也<span class="color4 f48">不闲</span>··· </p>
+						<p><span class="color4 f48">喜欢</span>出去玩，<span class="color4 f48">更喜欢</span>宅在家。</p>
+					</li>
+					<li>
+						<p>喜欢的<span class="color5 f48">主页</span>就要自己做一遍。</p>
+						<p>这个过程积累了很多的<span class="color5 f48">技巧</span>。</p>
+						<p><span class="color5 f48">善于</span>偷懒，所以经常做这些无聊的事情。</p>
+					</li>
+					<li>
+						<p><span class="color6 f48">努力</span>工作。努力<span class="color6 f48">学习</span>。</p>
+						<p><span class="color6 f48">不是</span>最强。也要做到<span class="color6 f48">最好</span>。</p>
+						<p>不想吃<span class="color6 f48">天鹅肉</span>的癞蛤蟆，不是好<span class="color6 f48">癞蛤蟆</span>。</p>
+					</li>
+					<li>
+						<p>想到什么，就<span class="color7 f48">做</span>什么。</p>
+						<p><span class="color7 f48">当然</span>，前提是要有时间···</p>
+					</li>
+				</ul>
+		</section>
+		
+		<section class="area_right abs"></section>
+		<section class="area_left abs"></section>
+		<section class="area_top abs"></section>
+		<section class="area_bottom abs"></section>
+	</body>
+	<script src="./lib/myDatas.js"></script>
+	<script src="./lib/jquery-1.10.2.min.js"></script>
+	<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="./lib/jscrollpane/mwheelIntent.js"></script>
+	<script src="./lib/jscrollpane/jquery.mousewheel.js"></script>
+	<script src="./lib/jscrollpane/jquery.jscrollpane.min.js"></script>
+	<script src="./lib/album/js/album.js"></script>
+	<script src="./lib/jquery.carouFredSel-6.2.1.js"></script>
+	<script src="./lib/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="./lib/myJquery.min.js"></script>	
 </html>
